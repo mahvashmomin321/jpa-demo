@@ -1,0 +1,5 @@
+package com.capgemini.employeeonetomany.entities;
+
+public class Certificate {
+
+}

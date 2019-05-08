@@ -1,0 +1,5 @@
+package com.capgemini.inheritanceperConcrete.dao;
+
+public interface EmployeeDao {
+
+}

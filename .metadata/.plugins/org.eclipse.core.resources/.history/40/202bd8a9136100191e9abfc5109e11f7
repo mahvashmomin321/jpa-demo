@@ -1,0 +1,7 @@
+package com.capgemini.inheritanceperConcrete.service;
+
+
+public interface EmployeeService {
+
+	public Employee addNew(Employee employee);
+}

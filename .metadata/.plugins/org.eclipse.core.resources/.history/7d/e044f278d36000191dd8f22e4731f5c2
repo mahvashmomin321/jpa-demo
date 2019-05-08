@@ -1,0 +1,48 @@
+package com.capgemini.employeemanytomany.entities;
+
+import java.util.Set;
+
+public class Employee {
+
+	private int EmployeeId;
+	private String EmployeeName;
+	
+	private Set<Project> projects;
+
+	public Employee() {
+		super();
+	}
+
+	public Employee(int employeeId, String employeeName, Set<Project> projects) {
+		super();
+		EmployeeId = employeeId;
+		EmployeeName = employeeName;
+		this.projects = projects;
+	}
+
+	public int getEmployeeId() {
+		return EmployeeId;
+	}
+
+	public void setEmployeeId(int employeeId) {
+		EmployeeId = employeeId;
+	}
+
+	public String getEmployeeName() {
+		return EmployeeName;
+	}
+
+	public void setEmployeeName(String employeeName) {
+		EmployeeName = employeeName;
+	}
+
+	public Set<Project> getProjects() {
+		return projects;
+	}
+
+	public void setProjects(Set<Project> projects) {
+		this.projects = projects;
+	}
+	
+	
+}

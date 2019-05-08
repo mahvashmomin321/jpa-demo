@@ -1,0 +1,5 @@
+package com.capgemini.inheritanceperConcrete.service;
+
+public interface EmployeeService {
+
+}

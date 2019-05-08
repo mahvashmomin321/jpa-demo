@@ -1,0 +1,19 @@
+package com.capgemini.inheritanceusingsubclass.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.capgemini.inheritanceusingsubclass.entities.Employee;
+import com.capgemini.inheritanceusingsubclass.entities.RegularEmployee;
+import com.capgemini.inheritanceusingsubclass.service.EmployeeService;
+
+@RestController
+public class EmployeeController {
+
+	@Autowired
+	EmployeeService service;
+	
+	public Employee addNewEmployee() {
+		RegularEmployee e1= new RegularEmployee(104, "Mahi", 24000, 2000);
+	}
+}

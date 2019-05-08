@@ -1,0 +1,19 @@
+package com.capgemini.persondemo.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.capgemini.persondemo.entity.Person;
+import com.capgemini.persondemo.service.PersonService;
+
+@RestController
+public class PersonController {
+
+	PersonService service;
+	
+	public Person addPerson() {
+		Person person = new Person(101,"mahi");
+		service.
+		return person;
+		
+	}
+}

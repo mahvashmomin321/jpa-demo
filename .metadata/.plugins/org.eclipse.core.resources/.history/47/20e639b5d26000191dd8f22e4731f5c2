@@ -1,0 +1,12 @@
+package com.capgemini.employeemanytomany.entities;
+
+import java.util.Set;
+
+public class Projects {
+
+	private int projectId;
+	private String projectName;
+	private Set<Employee> employees;
+	
+	
+}

@@ -1,0 +1,5 @@
+package com.capgemini.inheritanceperhierarchy.entities;
+
+public class ContractEmployee extends Employee {
+
+}

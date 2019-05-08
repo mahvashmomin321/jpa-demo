@@ -1,0 +1,6 @@
+package com.capgemini.employeeonetoone.service;
+
+public interface EmployeeService {
+
+	public Employee addEmployee();
+}

@@ -1,0 +1,8 @@
+package com.capgemini.employeemanytomany.service;
+
+import java.util.Set;
+
+public interface EmployeeService {
+
+	public Set<Employee> addNew(Employee employee);
+}

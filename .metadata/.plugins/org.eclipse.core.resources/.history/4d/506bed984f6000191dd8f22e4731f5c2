@@ -1,0 +1,5 @@
+package com.capgemini.employeeonetomany.dao;
+
+public interface EmployeeDao {
+
+}

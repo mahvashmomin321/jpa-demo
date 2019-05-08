@@ -1,0 +1,5 @@
+package com.capgemini.employeemanytomany.entities;
+
+public class Projects {
+
+}

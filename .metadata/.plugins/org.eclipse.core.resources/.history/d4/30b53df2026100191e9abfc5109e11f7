@@ -1,0 +1,7 @@
+package com.capgemini.inheritanceperhierarchy.entities;
+
+public class Employee {
+	
+	private int employeeId;
+	private String employeeName;
+}

@@ -1,0 +1,5 @@
+package com.capgemini.inheritanceusingsubclass.entities;
+
+public class RegularEmployee extends Employee {
+
+}

@@ -1,0 +1,10 @@
+package com.capgemini.inheritanceusingsubclass.entities;
+
+public class RegularEmployee extends Employee {
+
+	@Column(name="salary")    
+	private float salary;  
+	  
+	@Column(name="bonus")     
+	private int bonus;  
+}

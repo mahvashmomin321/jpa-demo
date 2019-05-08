@@ -1,0 +1,10 @@
+package com.capgemini.employeeonetomany.service;
+
+import com.capgemini.employeeonetomany.entities.Certificate;
+import com.capgemini.employeeonetomany.entities.Employee;
+
+public interface CertificateService {
+
+	public Certificate addNew();
+	public Certificate findEmployeeById();
+}

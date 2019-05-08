@@ -1,0 +1,8 @@
+package com.capgemini.inheritanceusingsubclass.service;
+
+import com.capgemini.inheritanceusingsubclass.entities.Employee;
+
+public class EmployeeService {
+
+	public Employee addNew(Employee employee);
+}

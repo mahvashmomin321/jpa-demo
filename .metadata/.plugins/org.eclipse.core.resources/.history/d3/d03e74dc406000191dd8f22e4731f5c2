@@ -1,0 +1,34 @@
+package com.capgemini.employeeonetoone.entities;
+
+public class Profile {
+	
+	private int profileId;
+	private String profileDescription;
+	
+	private Employee employee;
+	
+	
+	public Profile() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Profile(int profileId, String profileDescription) {
+		super();
+		this.profileId = profileId;
+		this.profileDescription = profileDescription;
+	}
+	public int getProfileId() {
+		return profileId;
+	}
+	public void setProfileId(int profileId) {
+		this.profileId = profileId;
+	}
+	public String getProfileDescription() {
+		return profileDescription;
+	}
+	public void setProfileDescription(String profileDescription) {
+		this.profileDescription = profileDescription;
+	}
+	
+	
+}

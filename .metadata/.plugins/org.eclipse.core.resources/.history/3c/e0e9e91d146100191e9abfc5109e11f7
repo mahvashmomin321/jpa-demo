@@ -1,0 +1,5 @@
+package com.capgemini.inheritanceperConcrete.controller;
+
+public class EmployeeController {
+
+}

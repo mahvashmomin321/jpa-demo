@@ -1,0 +1,5 @@
+package com.capgemini.inheritanceperConcrete.enities;
+
+public class ContractEmployee {
+
+}

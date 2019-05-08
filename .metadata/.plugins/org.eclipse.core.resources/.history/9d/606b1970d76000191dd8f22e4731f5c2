@@ -1,0 +1,30 @@
+package com.capgemini.employeemanytomany.service;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.capgemini.employeemanytomany.dao.EmployeeDao;
+import com.capgemini.employeemanytomany.entities.Employee;
+import com.capgemini.employeemanytomany.entities.Project;
+
+
+@Service
+public class EmployeeServiceImp implements EmployeeService {
+
+	@Autowired
+	EmployeeDao dao;
+	
+	@Override
+	public Set<Employee> addNew(Employee employee) {
+		Set<Project> projects= new HashSet<Project>();
+		projects.add(new Project(1,"abc",new ))
+		
+		return null;
+	}
+
+	
+	
+}

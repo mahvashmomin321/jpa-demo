@@ -1,0 +1,27 @@
+package com.capgemini.inheritanceperhierarchy.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.capgemini.inheritanceperhierarchy.dao.EmployeeDao;
+import com.capgemini.inheritanceperhierarchy.entities.Employee;
+
+
+@Service
+public class EmployeeServiceImp implements EmployeeService {
+
+	@Autowired
+	private EmployeeDao dao;
+	
+	@Override
+	public Employee addNew(Employee employee) {
+//		Employee employee1= new Employee(101, "Mahi");
+//		
+//		ContractEmployee employee2 = new ContractEmployee(102, "Akashta", 2000, "10hours");
+	
+		return dao.save(employee);
+	}
+
+	
+	
+}

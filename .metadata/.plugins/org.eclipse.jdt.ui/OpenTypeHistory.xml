@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=inheritanceperhierarchy/src\/main\/java&lt;com.capgemini.inheritanceperhierarchy.entities{Employee.java[Employee" modifiers="1" timestamp="1555505791574"/>
+<typeInfo handle="=inheritanceperhierarchy/src\/main\/java&lt;com.capgemini.inheritanceperhierarchy.dao{EmployeeDao.java[EmployeeDao" modifiers="513" timestamp="1555504195515"/>
+<typeInfo handle="=inheritanceperhierarchy/src\/main\/java&lt;com.capgemini.inheritanceperhierarchy.service{EmployeeService.java[EmployeeService" modifiers="513" timestamp="1555502160178"/>
+<typeInfo handle="=inheritanceperConcrete/src\/main\/java&lt;com.capgemini.inheritanceperConcrete.service{EmployeeService.java[EmployeeService" modifiers="513" timestamp="1555507269337"/>
+<typeInfo handle="=inheritanceusingsubclass/src\/main\/java&lt;com.capgemini.inheritanceusingsubclass.entities{Employee.java[Employee" modifiers="1" timestamp="1555557322226"/>
+<typeInfo handle="=inheritanceusingsubclass/src\/main\/java&lt;com.capgemini.inheritanceusingsubclass.service{EmployeeService.java[EmployeeService" modifiers="513" timestamp="1555557732889"/>
+</typeInfoHistroy>

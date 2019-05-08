@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Mahvash_Workspace\jpa_workspace\inheritanceusingsubclass"/>
+			<item value="C:\Mahvash_Workspace\jpa_workspace\inheritanceperConcrete"/>
+			<item value="C:\Mahvash_Workspace\jpa_workspace\inheritanceperhierarchy"/>
+			<item value="C:\Mahvash_Workspace\jpa_workspace\persondemo"/>
+			<item value="C:\Mahvash_Workspace\jpa_workspace\employeemanytomany"/>
+			<item value="C:\Mahvash_Workspace\jpa_workspace\employeeonetomany"/>
+			<item value="C:\Mahvash_Workspace\jpa_workspace\employeeonetoone"/>
+			<item value="C:\Mahvash_Workspace\jpa_workspace\persononetoone"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

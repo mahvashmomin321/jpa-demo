@@ -1,0 +1,6 @@
+package com.capgemini.persondemo.service;
+
+public interface PersonService {
+
+	public void addPersonDetails();
+}

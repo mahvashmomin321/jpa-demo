@@ -1,0 +1,13 @@
+package com.capgemini.inheritanceusingsubclass.service;
+
+import com.capgemini.inheritanceusingsubclass.entities.Employee;
+
+public class EmployeeServiceImpl implements EmployeeService {
+
+	@Override
+	public Employee addNew(Employee employee) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.capgemini.persondemo.controller;
+
+import com.capgemini.persondemo.entity.Person;
+import com.capgemini.persondemo.service.PersonService;
+
+public class PersonController {
+
+	PersonService service;
+	
+	public Person addPerson() {
+		Person person = new Person(101,"mahi");
+		
+		return person;
+		
+	}
+}

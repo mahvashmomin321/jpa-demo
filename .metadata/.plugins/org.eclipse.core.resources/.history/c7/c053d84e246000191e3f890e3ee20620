@@ -1,0 +1,5 @@
+package com.capgemini.persondemo.dao;
+
+public interface PersonDao {
+
+}

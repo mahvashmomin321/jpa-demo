@@ -1,0 +1,13 @@
+package com.capgemini.inheritanceperConcrete.service;
+
+import com.capgemini.inheritanceperConcrete.enities.Employee;
+
+public class EmployeeServiceImpl implements EmployeeService {
+
+	@Override
+	public Employee addNew(Employee employee) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.capgemini.inheritanceperhierarchy.controller;
+
+public class EmployeeController {
+
+}

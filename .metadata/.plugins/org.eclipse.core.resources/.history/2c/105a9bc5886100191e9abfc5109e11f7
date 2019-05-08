@@ -1,0 +1,5 @@
+package com.capgemini.inheritanceusingsubclass.dao;
+
+public interface EmployeeDao {
+
+}

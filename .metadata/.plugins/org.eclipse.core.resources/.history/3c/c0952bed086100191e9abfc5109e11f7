@@ -1,0 +1,20 @@
+package com.capgemini.inheritanceperhierarchy.service;
+
+import com.capgemini.inheritanceperhierarchy.entities.ContractEmployee;
+import com.capgemini.inheritanceperhierarchy.entities.Employee;
+
+public class EmployeeServiceImp implements EmployeeService {
+
+	@Override
+	public Employee addNew(Employee employee) {
+		Employee employee1= new Employee(101, "Mahi");
+		
+		ContractEmployee employee2 = new ContractEmployee(102, "Akashta", 2000, contractDuration)
+		
+		
+		return null;
+	}
+
+	
+	
+}

@@ -1,0 +1,5 @@
+package com.capgemini.inheritanceusingsubclass.controller;
+
+public class EmployeeController {
+
+}

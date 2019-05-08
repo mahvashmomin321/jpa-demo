@@ -1,0 +1,8 @@
+package com.capgemini.persondemo.service;
+
+import com.capgemini.persondemo.dao.PersonDao;
+
+public class PersonServiceImp implements PersonService {
+	
+	PersonDao dao;
+}

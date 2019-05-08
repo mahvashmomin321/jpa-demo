@@ -1,0 +1,44 @@
+package com.capgemini.employeeonetomany.service;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.capgemini.employeeonetomany.dao.EmployeeDao;
+import com.capgemini.employeeonetomany.entities.Certificate;
+import com.capgemini.employeeonetomany.entities.Employee;
+
+
+@Service
+public class CertificateServiceImpl implements CertificateService{
+
+	@Autowired
+	 EmployeeDao dao;
+
+	@Override
+	public Employee addNew() {
+
+		Employee employee = new Employee(101, "mahi");
+		
+		Set<Certificate> certificates= new HashSet<Certificate>();
+		certificates.add(new Certificate(1, "abc"));
+		certificates.add(new Certificate(2, "cde"));
+		
+		employee.setCertification(certificates);
+		dao.save(employee);
+		return employee;
+	}
+
+	@Override
+	public Employee findEmployeeById() {
+	Employee employee = new Employee();
+	employee.getCertification();
+	dao.findById(101).get();
+	return employee;
+
+
+
+
+}

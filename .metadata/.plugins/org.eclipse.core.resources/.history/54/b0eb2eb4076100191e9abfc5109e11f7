@@ -1,0 +1,5 @@
+package com.capgemini.inheritanceperhierarchy.service;
+
+public interface EmployeeService {
+
+}

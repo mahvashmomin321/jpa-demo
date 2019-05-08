@@ -1,0 +1,16 @@
+package com.capgemini.inheritanceusingsubclass.service;
+
+import com.capgemini.inheritanceusingsubclass.dao.EmployeeDao;
+import com.capgemini.inheritanceusingsubclass.entities.Employee;
+
+public class EmployeeServiceImpl implements EmployeeService {
+
+	EmployeeDao dao;
+	
+	@Override
+	public Employee addNew(Employee employee) {
+		
+		return null;
+	}
+
+}

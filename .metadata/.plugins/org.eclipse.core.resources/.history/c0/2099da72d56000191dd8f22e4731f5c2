@@ -1,0 +1,5 @@
+package com.capgemini.employeemanytomany.service;
+
+public interface EmployeeService {
+
+}

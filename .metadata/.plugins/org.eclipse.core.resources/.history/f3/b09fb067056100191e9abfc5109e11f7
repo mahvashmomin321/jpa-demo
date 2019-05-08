@@ -1,0 +1,48 @@
+package com.capgemini.inheritanceperhierarchy.entities;
+
+public class ContractEmployee extends Employee {
+
+	private float payPerHour;
+	private String contractDuration;
+	
+	public ContractEmployee() {
+		super();
+	}
+	
+	
+	public ContractEmployee(float payPerHour, String contractDuration) {
+		super();
+		this.payPerHour = payPerHour;
+		this.contractDuration = contractDuration;
+	}
+
+
+	public float getPayPerHour() {
+		return payPerHour;
+	}
+
+
+	public void setPayPerHour(float payPerHour) {
+		this.payPerHour = payPerHour;
+	}
+
+
+	public String getContractDuration() {
+		return contractDuration;
+	}
+
+
+	public void setContractDuration(String contractDuration) {
+		this.contractDuration = contractDuration;
+	}
+
+
+	@Override
+	public String toString() {
+		return "ContractEmployee [payPerHour=" + payPerHour + ", contractDuration=" + contractDuration + "]";
+	}
+	
+	
+	
+	
+}

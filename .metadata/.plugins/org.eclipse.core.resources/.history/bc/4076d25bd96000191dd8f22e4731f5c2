@@ -1,0 +1,23 @@
+package com.capgemini.employeemanytomany.controller;
+
+import java.util.Set;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.capgemini.employeemanytomany.entities.Employee;
+import com.capgemini.employeemanytomany.service.EmployeeService;
+
+@RestController
+public class EmployeeController {
+
+	@Autowired
+	EmployeeService service;
+	
+	
+	public Set<Employee> addEmp(){
+		
+		
+	}
+	
+}

@@ -1,0 +1,13 @@
+package com.capgemini.inheritanceusingsubclass.entities;
+
+@Entity  
+@Table(name="regularemployee2")  
+@PrimaryKeyJoinColumn(name="ID")  
+public class RegularEmployee extends Employee {
+
+	@Column(name="salary")    
+	private float salary;  
+	  
+	@Column(name="bonus")     
+	private int bonus;  
+}

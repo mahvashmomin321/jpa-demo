@@ -1,0 +1,5 @@
+package com.capgemini.inheritanceusingsubclass.service;
+
+public class EmployeeService {
+
+}
